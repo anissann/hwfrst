@@ -1,0 +1,82 @@
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #f4eae3;
+}
+
+.container {
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    border-radius: 10px;
+}
+
+.perfume {
+    width: 300px;
+    height: 450px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.monts {
+    font-family: "Montserrat", sans-serif;
+    color: #74757c;
+    font-size: 13px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+}
+
+.info {
+    padding: 30px;
+}
+
+.text {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #74757c
+}
+
+.discount {
+    font-family: "Fraunces", serif;
+    color: #3d8268;
+    font-size: 30px;
+}
+
+.price {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-left: 15px;
+    color: #74757c;
+    text-decoration: line-through;
+}
+
+button {
+    background-color: #3d8268;
+    color: white;
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 620px;
+    top: 537px;
+}
